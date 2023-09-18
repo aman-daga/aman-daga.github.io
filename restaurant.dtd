@@ -3,7 +3,7 @@
 <!ELEMENT restaurants(restaurant*)>
 
 <!ELEMENT restaurant(id, name, cuisine, city, open, close)>
-<!ELEMENT id(#PCDATA)>
+<!ELEMENT id(#ID)>
 <!ELEMENT name(#PCDATA)>
 <!ELEMENT cuisine(#PCDATA)>
 <!ELEMENT city(#PCDATA)>
